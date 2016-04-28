@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML5 APIs: Assignment 2 Solution</title>
+    <link rel="stylesheet" type="text/css" href="style/mystyle.css">
+  </head>
+  <body>
+
+    <h1>Object List - Assignment 2</h1>
+
+    <div id="table-page">
+      <button type="button" id="new-item">Add New Item</button>
+      
+      <br>
+
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              Age
+            </th>
+          </tr>
+        </thead>
+        <tbody id="items">
+        </tbody>
+      </table>
+    </div>
+
+
+    <div id="form-page" style="display:none">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="age">Age</label>
+        <input type="number" id="age" />
+        <br />
+       <br>
+
+        <button type="submit" id="submit">Submit</button>
+        <button type="button" id="cancel">Cancel</button>
+      </form>
+    </div>
+
+    <script src="jquery-2.2.3.min.js"></script>
+    <script src="js/AddOnly.js"></script>
+  </body>
+</html>

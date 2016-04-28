@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment 3</title>
+    <link rel="stylesheet" type="text/css" href="style/mystyle.css">
+  </head>
+  <body>
+    <h1>Numbers and Strings - Assignment 3</h1>
+    <form>
+      <label for="the-info">Enter numbers or text:</label>
+      <br>
+      <textarea name="comments" id="the-info" value="" cols="35" rows="3"></textarea>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+      <button type="button" id="reset">Reset</button>
+      <div id="message"></div>
+    </form>
+    <br>
+    <h1>The Numbers</h1>
+    <table>
+      <tbody>
+      <tr>
+        <td>Count</td>
+        <td id="count"></td>
+      </tr>
+      <tr>
+        <td>Sum</td>
+        <td id="sum">0</td>
+      </tr>
+      <tr>
+        <td>Average</td>
+        <td id="average"></td>
+      </tr>
+      
+      </tbody>
+    </table>
+    
+    <br>
+    <h1>The Strings</h1>
+    
+    <p id="info"></p>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/NumberString.js"></script>
+  </body>
+</html>
