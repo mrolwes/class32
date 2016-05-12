@@ -1,0 +1,16 @@
+body {
+  background-color: #FFD7AA;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+  
+
+
+
+
+/* colors: bg FFD7AA font 804D15 other 804D15 */

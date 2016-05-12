@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Veredana, sans-serif;
+  
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+input {
+  padding: 5px 5px 5px 30px;
+}
+
+button {
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+}
